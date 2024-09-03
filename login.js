@@ -16,7 +16,7 @@ document.getElementById('submit-button').addEventListener('click',function (){
     // Login Data (Email & Password)://..................................
     if (userEmail == 'admin@gmail.com' && userPassword == '1234'){
         alert("Login Successfull")
-        window.location.href = "http://127.0.0.1:5500/banking.html"
+        window.location.href = "https://topdigiit.github.io/Bank-html-with-login-js/banking"
     } 
     else if (userEmail != 'admin@gmail.com' || userPassword != '1234'){
         alert("User Name or Password is not valid")
